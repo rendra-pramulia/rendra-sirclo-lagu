@@ -1,0 +1,69 @@
+.artists {
+    padding: 0;
+}
+
+.artists > .artists-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artists > .artists-header > h2 {
+    color: #FFFFFF;
+}
+
+.artists > .artists-header > h4 {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.artists > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    grid-gap: 1rem;
+    list-style: none;
+    padding-left: 0px;
+    grid-auto-rows: 0;
+    grid-template-rows: 1fr;
+    overflow-y: hidden;
+}
+
+.artists > ul > li {
+    cursor: pointer;
+    background: #181818;
+    padding: 10px;    
+}
+
+.artists > ul > li:hover {
+    background: #282828;
+}
+
+.artists > ul > li > figure {
+    max-height: 220px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0px;
+}
+
+.artists > ul > li > figure > img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.artists > ul > li > p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #6a6a6a;
+}
+
+.artists > ul > li > .artists-title {
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+.artists > ul > li > .artists-type {
+    margin: 0px;
+    padding: 0px;
+}

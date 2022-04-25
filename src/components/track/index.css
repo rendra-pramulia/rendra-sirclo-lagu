@@ -1,0 +1,84 @@
+.tracks {
+    padding: 0;
+}
+
+.tracks > .tracks-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.tracks > .tracks-header > h2 {
+    color: #FFFFFF;
+}
+
+.tracks > .tracks-header > h4 {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.tracks-list {
+    grid-template-columns: [index] 16px [first] 6fr [var1] 4fr [var2] 3fr [last] minmax(120px,1fr);
+    grid-gap: 16px;
+    display: grid;
+    padding: 0 16px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    color: #b3b3b3;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+.tracks-list > span {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.1em;
+}
+
+.tracks-list-header {
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+.tracks-list-item {
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.tracks-list-item > span{
+    color: #FFFFFF;
+}
+
+.tracks-list-item:hover {
+    background-color: rgba(255,255,255,.1);
+}
+
+.center-item {
+    text-align: center;
+    margin: 10px 0 20px;
+    position: relative;
+}
+
+.load-more {
+    color: #b3b3b3;
+    text-align: center;
+    background: #181818;
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button {
+    position: relative;
+    padding: 8px 16px;
+    background: #009579;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
